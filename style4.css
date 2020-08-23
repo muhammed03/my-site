@@ -84,9 +84,20 @@ label{
   color: #1a1a1a;
   padding-left: 315px;
 }
-img{
-  height: 250px;
+.bgr{
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
